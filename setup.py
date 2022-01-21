@@ -29,5 +29,5 @@ setup(
     url="https://github.com/taicaile/scrapy-rclone",
     packages=find_packages(),
     install_requires=read_requirements("requirements.txt"),
-    dependency_links=["https://github.com/taicaile/pyrclone@v0.1.0"],
+    dependency_links=["https://github.com/taicaile/repo/pyrclone/master@v0.1.0"],
 )

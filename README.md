@@ -39,4 +39,17 @@ pip install git+https://github.com/taicaile/pyrclone@v0.1.0
 ```bash
 # config rclone remote,
 RCLONE_REMOTE = "xxx"
+# add pipeline for image download
+IMAGES_STORE = "files"
+ITEM_PIPELINES = {
+    "scrapy.pipelines.images.ImagesPipeline": 200,
+    "scrapy_rclone.pipelines.RcloneMoveImagesPipeline": 300,
+}
+
+# add pipeline for files download
+FILES_STORE = "files"
+ITEM_PIPELINES = {
+    "scrapy.pipelines.images.FilesPipeline": 200,
+    "scrapy_rclone.pipelines.RcloneMoveFilesPipeline": 300,
+}s
 ```
