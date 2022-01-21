@@ -28,6 +28,12 @@ pip isntall git+https://github.com/taicaile/pyrclone
 pip install git+https://github.com/taicaile/scrapy_rclone@v0.1.0
 ```
 
+You may need to install pyrclone manully,
+
+```bash
+pip install git+https://github.com/taicaile/pyrclone@v0.1.0
+```
+
 ## Usage
 
 ```bash
