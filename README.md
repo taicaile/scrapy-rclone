@@ -51,5 +51,5 @@ FILES_STORE = "files"
 ITEM_PIPELINES = {
     "scrapy.pipelines.images.FilesPipeline": 200,
     "scrapy_rclone.pipelines.RcloneMoveFilesPipeline": 300,
-}s
+}
 ```
