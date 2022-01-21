@@ -1,2 +1,3 @@
+pyrclone@git+https://github.com/taicaile/pyrclone.git@v0.1.0
 twisted
 redis

@@ -29,5 +29,4 @@ setup(
     url="https://github.com/taicaile/scrapy-rclone",
     packages=find_packages(),
     install_requires=read_requirements("requirements.txt"),
-    dependency_links=[],
 )
