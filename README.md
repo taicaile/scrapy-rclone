@@ -8,13 +8,13 @@ To install it via `pip`,
 
 ```bash
 pip isntall git+https://github.com/taicaile/pyrclone
-pip install git+https://github.com/taicaile/scrapy_rclone
+pip install git+https://github.com/taicaile/scrapy-rclone
 ```
 
 or clone it first,
 
 ```bash
-git clone https://github.com/taicaile/scrapy_rclone.git
+git clone https://github.com/taicaile/scrapy-rclone.git
 cd scrapy_rclone
 pip install -r requirements.txt
 python setup.py install
@@ -25,7 +25,7 @@ To install specific version,
 ```bash
 # replace the version `v0.1.0` as you expect,
 pip isntall git+https://github.com/taicaile/pyrclone
-pip install git+https://github.com/taicaile/scrapy_rclone@v0.1.0
+pip install git+https://github.com/taicaile/scrapy-rclone@v0.1.0
 ```
 
 You may need to install pyrclone manully,
